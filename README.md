@@ -11,7 +11,10 @@ git clone https://github.com/TareqSaleem/AlaraServer.git
 ```
 cd functions
 npm install
+```
+npm install nodemailer xoauth2
 npm install express body-parser nodemailer cors --save
+```
 ```
 ### Run - Development
 ```
