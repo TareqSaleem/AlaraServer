@@ -26,8 +26,8 @@ app1.post('/sendEmail', (req,res) => {
 
         var mailOptions = {
         from: 'Alara <alaralukagrohr@gmail.com>',
-        to: 'tareqy2003@hotmail.com',
-        subject: 'Test',
+        to: 'm.mostert@alara-lukagro.com',
+        subject: 'Alara PWA App Hogeschool Rotterdam',
         text: data.description,
         
         }
