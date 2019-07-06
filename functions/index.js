@@ -28,7 +28,7 @@ app1.post('/sendEmail', (req,res) => {
         from: 'Alara <alaralukagrohr@gmail.com>',
         to: 'm.mostert@alara-lukagro.com',
         subject: 'Alara PWA App Hogeschool Rotterdam',
-        text: data.description,
+        text: data.description
         
         }
         if (data.image){
